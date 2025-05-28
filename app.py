@@ -1,7 +1,15 @@
 import streamlit as st
-from fpdf import FPDF
-import io
 
+st.set_page_config(page_title="Escala de Fenótipos de Comportamento Alimentar (EFCA)", layout="centered")
+
+st.title("Escala de Fenótipos de Comportamento Alimentar (EFCA)")
+st.markdown("""
+#### Autora do App: **Taís Mazzini Setti**  
+Instagram: [@dra.taismsetti](https://www.instagram.com/dra.taismsetti/)  
+
+**Referência:**  
+Pineda-Wieselberg RJ, Soares AH, Napoli TF, Sarto MLL, Anger V, Formoso J, Scalissi NM, Salles JEN. Validation for Brazilian Portuguese of the Eating Behavior Phenotypes Scale (EFCA): Confirmatory Factor Analysis and Psychometric Properties. *Arch. Endocrinol. Metab.* 2025; ahead of print.
+""")
 st.set_page_config(page_title="Questionário EFCA", layout="centered")
 
 opcoes = {"Nunca": 1, "Raras vezes": 2, "Às vezes": 3, "Quase sempre": 4, "Sempre": 5}
